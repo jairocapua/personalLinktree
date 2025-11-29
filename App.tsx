@@ -69,7 +69,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="w-full p-6 sm:p-8 text-center mt-auto shrink-0 z-10 relative">
         <p className="text-sm sm:text-base text-gray-500 dark:text-gray-400">
-          &copy; {new Date().getFullYear()} Jairo Capua.
+          &copy; {new Date().getFullYear()} Jairo Capua. All Rights Reserved.
         </p>
       </footer>
       
