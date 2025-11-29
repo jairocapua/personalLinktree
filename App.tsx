@@ -38,13 +38,13 @@ const App: React.FC = () => {
     // Added overflow-x-hidden to prevent horizontal scroll from blobs
     <div className="min-h-screen w-full bg-[#f9fafb] dark:bg-gray-950 flex flex-col transition-colors duration-300 relative overflow-x-hidden font-sans">
       
-      {/* Technical Dot Background Pattern */}
-      <div className="absolute inset-0 z-0 pointer-events-none opacity-40 dark:opacity-20" 
+      {/* Grid Background Pattern */}
+      <div className="absolute inset-0 z-0 pointer-events-none" 
            style={{
              backgroundImage: isDark 
-               ? 'radial-gradient(#ffffff 1px, transparent 1px)' 
-               : 'radial-gradient(#000000 1px, transparent 1px)',
-             backgroundSize: '24px 24px'
+               ? 'linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px)' 
+               : 'linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px)',
+             backgroundSize: '32px 32px'
            }}>
       </div>
       
