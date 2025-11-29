@@ -14,7 +14,7 @@ export const PROFILE_DATA: ProfileData = {
     {
       id: '1',
       label: 'View Automation Portfolio',
-      url: '#',
+      url: 'https://jairocapua.vercel.app/',
       icon: Globe,
       featured: true,
       type: 'primary'
